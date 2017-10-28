@@ -16,28 +16,33 @@
     <div class="container">
         <div class="header">
             
+            <!-- Title -->
             <div class="title">
                     <span class="fa fa-newspaper-o" aria-hidden="true"></span>
                     New York Times Search
             </div>
 
+            <!-- Search Form -->
             <div class="search-body">
-                <h3 class="search-header"><span class="fa fa-keyboard-o" aria-hidden="true"></span>Search Parameters</h3>
-                <label class="label-header">Search Term (Required):</label>
-                <input class="form-control" type="search" placeholder="Search a term" id="search">
-                <label class="label-header">Number of Records to Retrive (Required):</label>
-                <input class="form-control" type="search" placeholder="5.." id="numberOf">
-                <label class="label-header">Start Year (Optional):</label>
-                <input class="form-control" type="search" placeholder="ex.2001" id="begin_date">
-                <label class="label-header">End Year (Optional):</label>
-                <input class="form-control" type="search" placeholder="ex.2017" id="end_date">
+                <form>
+                    <h3 class="search-header"><span class="fa fa-keyboard-o" aria-hidden="true"></span>Search Parameters</h3>
+                    <label class="label-header">Search Term (Required):</label>
+                    <input class="form-control" type="search" placeholder="Search a term" id="search">
+                    <label class="label-header">Number of Records to Retrive (Required):</label>
+                    <input class="form-control" type="search" placeholder="5.." id="numberOf">
+                    <label class="label-header">Start Year (Optional):</label>
+                    <input class="form-control" type="search" placeholder="ex.2001" id="begin_date">
+                    <label class="label-header">End Year (Optional):</label>
+                    <input class="form-control" type="search" placeholder="ex.2017" id="end_date">
 
-                <div class="buttons">
-                <button type="button" class="btn" id="search-button"><span class="glyphicon glyphicon-search"></span>Search</button>
-                <button type="button" class="btn" id="clear-button"><span class="glyphicon glyphicon-trash"></span>Clear Results</button>
-                </div>
+                    <div class="buttons">
+                    <button type="button" class="btn" id="search-button"><span class="glyphicon glyphicon-search"></span>Search</button>
+                    <button type="button" class="btn" id="clear-button"><span class="glyphicon glyphicon-trash"></span>Clear Results</button>
+                    </div>
+                </form>
             </div>
 
+            <!-- Results from search -->
             <div class="top-articles">
                 <div class="top-articles-header"><span class="glyphicon glyphicon-pencil"></span>Top Articles</div>
 
@@ -48,7 +53,6 @@
             </div>
         </div>
     </div>
-
 
 </body>
 </html>

@@ -1,147 +1,165 @@
- 
-        .container{
-            font-family: 'Slabo 27px', serif;
-        }
 
-        .title{
-            background-color: #050546;
-            text-align: center;
-            margin-left: 115px;
-            border-radius: 10px;
-            font-size: 50px;
-            width: 85%;
-            color: white;
-            padding: 20px;
-        }
+/* Div Container */
+.container{
+    font-family: 'Slabo 27px', serif;
+}
 
-        .search-body{
-            background-color:white;
-            border: solid 1px black;
-            width: 85%;
-            margin-top: 15px;
-            margin-left: 115px;
-            border-radius: 5px;
-            height: 550px;
-        }
+/* Title Div */
+.title{
+    background-color: #050546;
+    text-align: center;
+    margin-left: 115px;
+    border-radius: 10px;
+    font-size: 50px;
+    width: 85%;
+    color: white;
+    padding: 20px;
+}
 
-        .fa-keyboard-o{
-            font-size: 25px;
-        }
+/* Search Body Container */
+.search-body{
+    background-color:white;
+    border: solid 1px black;
+    width: 85%;
+    margin-top: 15px;
+    margin-left: 115px;
+    border-radius: 5px;
+    height: 550px;
+}
 
-        .fa-keyboard-o::before{
-            margin-right: 5px;
-        }
+/* Keyboard icon next to 'Search Parameters */
+.fa-keyboard-o{
+    font-size: 25px;
+}
 
-        .search-header{
-            background-color:#050546;
-            margin-top: 0px;
-            border-bottom-left-radius: 5px;
-            border-bottom-right-radius: 5px;
-            color: white;
-            padding: 8px;
-            font-size: 25px;
-        }
+.fa-keyboard-o::before{
+    margin-right: 5px;
+}
 
-        .label-header{
-            color:#050546;
-            margin-left: 15px;
-            font-size: 25px;
-        }
 
-        input{
-            margin-left: 15px;
-            font-size: 50px;
-            margin-bottom: 30px; 
-        }
+/* Search Container header */
+.search-header{
+    background-color:#050546;
+    margin-top: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    padding: 8px;
+    font-size: 25px;
+}
 
-        .form-control{
-            width: 95%;
-            height: 35px;
-        }
+/* Labels inside the search body */
+.label-header{
+    color:#050546;
+    margin-left: 15px;
+    font-size: 25px;
+}
 
-        .buttons{
-            margin-left: 15px;
-        }
+/* Input tags inside the search container */
+input{
+    margin-left: 15px;
+    font-size: 50px;
+    margin-bottom: 30px; 
+}
 
-        .btn{
-            padding-top: 10px;
-            font-size: 20px;
-            color: white;
-            border-radius: 5px; 
-            border: none;
-            background-color: grey; 
-        }
+.form-control{
+    width: 95%;
+    height: 35px;
+}
 
-        .glyphicon-search:before{
-            margin-right: 5px;
-        }
-        
-        .glyphicon-trash::before{
-            margin-right: 5px;
-        }
 
-        
-        .top-articles{
-            background-color:white;
-            border: solid 1px black;
-            width: 85%;
-            margin-top: 15px;
-            margin-left: 115px;
-            border-radius: 5px;
-            height: auto;
-        }
+/* Buttons inside the search container */
+.buttons{
+    margin-left: 15px;
+}
 
-        .glyphicon-pencil:before{
-            margin-right: 5px;
-        }
+.btn{
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px; 
+    border: none;
+    background-color: grey; 
+}
 
-        .glyphicon-pencil{
-            font-size: 20px;
-        }
+/* Icon next to search button */
+.glyphicon-search:before{
+    margin-right: 5px;
+}
 
-        .top-articles-header{
-            background-color:#050546;
-            margin-top: 0px;
-            font-size: 25px;
-            border-bottom-left-radius: 5px;
-            border-bottom-right-radius: 5px;
-            color: white;
-            padding: 10px;
-        }
+/* Icon next to clear results button */
+.glyphicon-trash::before{
+    margin-right: 5px;
+}
 
-        a{
-            text-decoration : none;
-            color : #000000;
-        }
+/* Div Container for articles results */
+.top-articles{
+    background-color:white;
+    border: solid 1px black;
+    width: 85%;
+    margin-top: 15px;
+    margin-left: 115px;
+    border-radius: 5px;
+    height: auto;
+}
 
-        a:hover{
-            text-decoration :none;
-            color : white;;
-        }
+/* Pencil Icon next to 'Top Articles' Text */
+.glyphicon-pencil:before{
+    margin-right: 5px;
+}
 
-        a:visited{
-            text-decoration : none;
-            color: black;
-        }
+.glyphicon-pencil{
+    font-size: 20px;
+}
 
-        .results{
-            border-radius: 5px;
-            background-color: #E4E3E3;
-            width: auto;
-            height: auto;
-            margin: 10px;
-        }
+/* Header of Top Articles Container Div */
+.top-articles-header{
+    background-color:#050546;
+    margin-top: 0px;
+    font-size: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    padding: 10px;
+}
 
-        .glyphicon-chevron-right{
-            font-size: 20px;
-        }
-       
-        .headline-title{
-            font-size: 20px;
-           
-        }
+/* a tags containing the articles results headlines */
+a{
+    text-decoration : none;
+    color : #000000;
+}
 
-        .headline-body{
-           margin-left: 20px;
-           font-size: 15px;
-        }
+a:hover{
+    text-decoration :none;
+    color : white;;
+}
+
+a:visited{
+    text-decoration : none;
+    color: #000000;
+}
+
+/* individual articles results  */
+.results{
+    border-radius: 5px;
+    background-color: #E4E3E3;
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+
+/* Icon of individual articles results */
+.glyphicon-chevron-right{
+    font-size: 20px;
+}
+
+/* Headline title of individual articles results */
+.headline-title{
+    font-size: 20px;  
+}
+
+/* Headline paragraph of individual articles results */
+.headline-body{
+    margin-left: 20px;
+    font-size: 15px;
+}
