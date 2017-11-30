@@ -1,5 +1,7 @@
 # NYT-Search
-An application using the New York Times API that allows the user to search the NYT database and pull articles
+An application using the New York Times API that allows the user to search the NYT database and pull articles.
+
+Project Link: https://bryanp2033.github.io/NY-Times-Search/
 
 # Concept:
 
